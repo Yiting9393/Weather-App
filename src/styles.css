@@ -6,6 +6,7 @@
   border-width: 0.1em;
   padding: 25px;
   margin: 20px;
+  margin-bottom: 0%;
   width: 630px;
 }
 
@@ -151,6 +152,19 @@ ul {
 #dates {
   position: relative;
   left: 4px;
+}
+
+.footer {
+  margin-left: 25px;
+  margin-top: 6px;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  opacity: 0.9;
+}
+
+.github-link {
+  color: #1d78d3f5;
 }
 
 hr {
