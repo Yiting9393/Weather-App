@@ -1,0 +1,170 @@
+body {
+  border: solid;
+  border-radius: 10px;
+  border-color: lightgray;
+  box-shadow: 5px 5px 5px lightgrey;
+  border-width: 0.1em;
+  padding: 10px;
+  margin: 20px;
+  width: 630px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-search-city,
+.quick-search-myLocation {
+  color: #094988f5;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.quick-search-myLocation {
+  opacity: 0.9;
+}
+
+.quick-search-city {
+  opacity: 0.7;
+}
+
+.quick-search-city:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.quick-search-myLocation:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#search-button {
+  background: #126bc4;
+  color: white;
+}
+
+.current-city,
+.high,
+.low {
+  color: #094988f5;
+}
+
+.current-city {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.current-date {
+  line-height: 40px;
+  font-size: 19px;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+
+.current-temperature .temperature {
+  font-size: 60px;
+  line-height: 50px;
+  opacity: 0.9;
+  padding-right: 10px;
+}
+
+.units {
+  position: relative;
+  top: -30px;
+  left: -15px;
+  text-decoration: none;
+  color: black;
+  opacity: 0.9;
+}
+
+.current-description {
+  padding-top: 8px;
+  margin-left: 5px;
+}
+
+.current-description .high {
+  font-weight: bolder;
+}
+
+.feels-like-text {
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.feels-like-value {
+  font-weight: bolder;
+  opacity: 0.7;
+}
+
+.humidity-wind {
+  color: #094988f5;
+  font-size: 15px;
+  font-weight: bolder;
+  position: relative;
+  right: -35px;
+  bottom: -5px;
+}
+
+.humidity {
+  opacity: 0.9;
+}
+/* #humidity-seperator {
+  position: relative;
+  right: -2px;
+} */
+
+.wind-speed {
+  opacity: 0.7;
+}
+
+.today {
+  padding-top: 20px;
+  position: relative;
+  right: -43px;
+  top: -5px;
+}
+
+.today.icon {
+  position: relative;
+  right: -55px;
+}
+
+.today.temperatures {
+  font-weight: bold;
+}
+
+.future-day,
+.future-icon,
+.future-range {
+  text-align: center;
+  padding: 2px;
+}
+
+.city-dates {
+  margin-bottom: 0%;
+}
+
+#dates {
+  position: relative;
+  left: 4px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+/* #top-line {
+  margin-top: 10px;
+} */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
